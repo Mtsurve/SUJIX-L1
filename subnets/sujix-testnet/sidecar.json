@@ -1,0 +1,33 @@
+{
+    "Name": "SujiX",
+    "VM": "Subnet-EVM",
+    "VMVersion": "v0.6.10",
+    "RPCVersion": 37,
+    "Subnet": "SujiX",
+    "ExternalToken": false,
+    "TokenName": "SUJIX Token",
+    "TokenSymbol": "SUJIX",
+    "ChainID": "",
+    "Version": "1.4.0",
+    "Networks": {
+        "Fuji": {
+            "SubnetID": "c3Cxf6uDZJkS7ERbQFRMeZxdFGB5QQxMt3TDRymxqySHRywGz",
+            "BlockchainID": "XsKZRGdt9DCwMRf7m8WfDk1ujWb8kC518D29aRipS5u2AvjHw",
+            "RPCVersion": 37,
+            "TeleporterMessengerAddress": "0x253b2784c75e510dD0fF1da844684a1aC0aa5fcf",
+            "TeleporterRegistryAddress": "0x197F0Fdd14c3bd9dcdA363A47b82eb80e7101608",
+            "RPCEndpoints": null,
+            "WSEndpoints": null
+        }
+    },
+    "ImportedFromAPM": false,
+    "ImportedVMID": "",
+    "CustomVMRepoURL": "",
+    "CustomVMBranch": "",
+    "CustomVMBuildScript": "",
+    "TeleporterReady": true,
+    "TeleporterKey": "cli-teleporter-deployer",
+    "TeleporterVersion": "v1.0.0",
+    "RunRelayer": true,
+    "SubnetEVMMainnetChainID": 0
+  }

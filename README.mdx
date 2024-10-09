@@ -1,0 +1,65 @@
+# SUJIX Avalanche L1
+
+- L1 Overview
+  - [Testnet](https://subnets-test.avax.network/subnets/c3Cxf6uDZJkS7ERbQFRMeZxdFGB5QQxMt3TDRymxqySHRywGz)
+- RPC URLs:
+  - Testnet: `http://35.244.13.216:9650/ext/bc/XsKZRGdt9DCwMRf7m8WfDk1ujWb8kC518D29aRipS5u2AvjHw/rpc` (chain id 45107)
+
+## Fuji Testnet
+
+### Fuji L1 Info
+
+| Field           | Value                                                                                     |
+|-----------------|-------------------------------------------------------------------------------------------|
+| **Name**        | SujiX                                                                                     |
+| **VM ID**       | dkqgVtWS2LsMudMwMpGF2UJMLz9h2jVAAtT1TaiADH8x741ft                                          |
+| **VM Version**  | v0.6.10                                                                                    |
+| **ChainID**     | 45107                                                                                      |
+| **SubnetID**    | c3Cxf6uDZJkS7ERbQFRMeZxdFGB5QQxMt3TDRymxqySHRywGz                                          |
+| **Owners**      | P-fuji1ck7gjc3fr4vpum2e237py7mkpuu8wsvrcafc0n                                              |
+| **BlockchainID (CB58)** | XsKZRGdt9DCwMRf7m8WfDk1ujWb8kC518D29aRipS5u2AvjHw                                  |
+| **BlockchainID (HEX)**  | 0x4616b072d795c2f8421bb2a2fffa376829853ddf1d7dd7be0e56df3e1109f76e                 |
+
+### Teleporter
+
+| Field                        | Value                                                                         |
+|------------------------------|-------------------------------------------------------------------------------|
+| **Teleporter Messenger Address** | 0x253b2784c75e510dD0fF1da844684a1aC0aa5fcf                                |
+| **Teleporter Registry Address**  | 0x197F0Fdd14c3bd9dcdA363A47b82eb80e7101608                                |
+
+### Token
+
+| Field         | Value            |
+|---------------|------------------|
+| **Token Name** | SUJIX Token     |
+| **Token Symbol** | SUJIX         |
+
+### Initial Token Allocation
+
+| Description              | Address                                      | Amount (10^18) | Amount (WEI)                    |
+|--------------------------|----------------------------------------------|----------------|----------------------------------|
+| **Main Allocation**       | 0x52ab70671E55672e239491Dd2Ab85E076B06A4eb  | 214000000      | 214000000000000000000000000     |
+| **Teleporter Deployer**   | 0xb47dD94E7730e679BfBc8410217B46a8Bc82480E  | 600            | 600000000000000000000           |
+
+### Initial Precompile Configs
+
+| Precompile    | Admin Addresses                            | Manager Addresses | Enabled Addresses |
+|---------------|--------------------------------------------|-------------------|-------------------|
+| **Warp**      | n/a                                        | n/a               | n/a               |
+| **Native Minter** | 0x52ab70671E55672e239491Dd2Ab85E076B06A4eb |                   |                   |
+
+## Run your own node
+
+- Run an [Avalanche node](https://docs.avax.network/nodes/build/set-up-node-with-installer)
+- Install [Avalanche CLI](https://docs.avax.network/subnets/install-avalanche-cli) on it
+
+## Import and join an L1
+
+#### Fuji:
+
+- [Import the subnet](https://docs.avax.network/subnets/how-to-import-subnet) into Avalanche CLI
+  - `avalanche blockchain import ./subnets/sujix-testnet/export.json`
+- [Join the subnet](https://docs.avax.network/subnets/deploying-subnets-on-prod#joining-a-subnet) with your node using Avalanche CLI
+  - `avalanche blockchain join SUJIX`
+- Reload AvalancheGo
+  - `sudo systemctl restart avalanchego`

@@ -1,0 +1,40 @@
+{
+    "Sidecar": {
+        "Name": "SujiX",
+        "VM": "Subnet-EVM",
+        "VMVersion": "v0.6.10",
+        "RPCVersion": 37,
+        "Subnet": "SujiX",
+        "ExternalToken": false,
+        "TokenName": "SUJIX Token",
+        "TokenSymbol": "SUJIX",
+        "ChainID": "",
+        "Version": "1.4.0",
+        "Networks": {
+            "Fuji": {
+                "SubnetID": "c3Cxf6uDZJkS7ERbQFRMeZxdFGB5QQxMt3TDRymxqySHRywGz",
+                "BlockchainID": "XsKZRGdt9DCwMRf7m8WfDk1ujWb8kC518D29aRipS5u2AvjHw",
+                "RPCVersion": 37,
+                "TeleporterMessengerAddress": "0x253b2784c75e510dD0fF1da844684a1aC0aa5fcf",
+                "TeleporterRegistryAddress": "0x197F0Fdd14c3bd9dcdA363A47b82eb80e7101608",
+                "RPCEndpoints": null,
+                "WSEndpoints": null
+            }
+        },
+        "ImportedFromAPM": false,
+        "ImportedVMID": "",
+        "CustomVMRepoURL": "",
+        "CustomVMBranch": "",
+        "CustomVMBuildScript": "",
+        "TeleporterReady": true,
+        "TeleporterKey": "cli-teleporter-deployer",
+        "TeleporterVersion": "v1.0.0",
+        "RunRelayer": true,
+        "SubnetEVMMainnetChainID": 0
+    },
+    "Genesis": "ewogICAgImNvbmZpZyI6IHsKICAgICAgICAiYnl6YW50aXVtQmxvY2siOiAwLAogICAgICAgICJjaGFpbklkIjogNDUxMDcsCiAgICAgICAgImNvbnN0YW50aW5vcGxlQmxvY2siOiAwLAogICAgICAgICJjb250cmFjdE5hdGl2ZU1pbnRlckNvbmZpZyI6IHsKICAgICAgICAgICAgImFkbWluQWRkcmVzc2VzIjogWwogICAgICAgICAgICAgICAgIjB4NTJhYjcwNjcxZTU1NjcyZTIzOTQ5MWRkMmFiODVlMDc2YjA2YTRlYiIKICAgICAgICAgICAgXSwKICAgICAgICAgICAgImJsb2NrVGltZXN0YW1wIjogMTcyNzgwMTEwMAogICAgICAgIH0sCiAgICAgICAgImVpcDE1MEJsb2NrIjogMCwKICAgICAgICAiZWlwMTU1QmxvY2siOiAwLAogICAgICAgICJlaXAxNThCbG9jayI6IDAsCiAgICAgICAgImZlZUNvbmZpZyI6IHsKICAgICAgICAgICAgImdhc0xpbWl0IjogMTUwMDAwMDAsCiAgICAgICAgICAgICJ0YXJnZXRCbG9ja1JhdGUiOiAyLAogICAgICAgICAgICAibWluQmFzZUZlZSI6IDI1MDAwMDAwMDAwLAogICAgICAgICAgICAidGFyZ2V0R2FzIjogNDUwMDAwMDAsCiAgICAgICAgICAgICJiYXNlRmVlQ2hhbmdlRGVub21pbmF0b3IiOiAzNiwKICAgICAgICAgICAgIm1pbkJsb2NrR2FzQ29zdCI6IDAsCiAgICAgICAgICAgICJtYXhCbG9ja0dhc0Nvc3QiOiAxMDAwMDAwLAogICAgICAgICAgICAiYmxvY2tHYXNDb3N0U3RlcCI6IDIwMDAwMAogICAgICAgIH0sCiAgICAgICAgImhvbWVzdGVhZEJsb2NrIjogMCwKICAgICAgICAiaXN0YW5idWxCbG9jayI6IDAsCiAgICAgICAgIm11aXJHbGFjaWVyQmxvY2siOiAwLAogICAgICAgICJwZXRlcnNidXJnQmxvY2siOiAwLAogICAgICAgICJ3YXJwQ29uZmlnIjogewogICAgICAgICAgICAiYmxvY2tUaW1lc3RhbXAiOiAxNzI3ODAxMTAwLAogICAgICAgICAgICAicXVvcnVtTnVtZXJhdG9yIjogNjcKICAgICAgICB9CiAgICB9LAogICAgIm5vbmNlIjogIjB4MCIsCiAgICAidGltZXN0YW1wIjogIjB4NjZmYzI3MGMiLAogICAgImV4dHJhRGF0YSI6ICIweCIsCiAgICAiZ2FzTGltaXQiOiAiMHhlNGUxYzAiLAogICAgImRpZmZpY3VsdHkiOiAiMHgwIiwKICAgICJtaXhIYXNoIjogIjB4MDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMCIsCiAgICAiY29pbmJhc2UiOiAiMHgwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIiwKICAgICJhbGxvYyI6IHsKICAgICAgICAiNTJhYjcwNjcxZTU1NjcyZTIzOTQ5MWRkMmFiODVlMDc2YjA2YTRlYiI6IHsKICAgICAgICAgICAgImJhbGFuY2UiOiAiMHhiMTA0NDMzZWRmNGVhNDk2MDAwMDAwIgogICAgICAgIH0sCiAgICAgICAgImI0N2RkOTRlNzczMGU2NzliZmJjODQxMDIxN2I0NmE4YmM4MjQ4MGUiOiB7CiAgICAgICAgICAgICJiYWxhbmNlIjogIjB4MjA4NmFjMzUxMDUyNjAwMDAwIgogICAgICAgIH0KICAgIH0sCiAgICAiYWlyZHJvcEhhc2giOiAiMHgwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwIiwKICAgICJhaXJkcm9wQW1vdW50IjogbnVsbCwKICAgICJudW1iZXIiOiAiMHgwIiwKICAgICJnYXNVc2VkIjogIjB4MCIsCiAgICAicGFyZW50SGFzaCI6ICIweDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAwMDAiLAogICAgImJhc2VGZWVQZXJHYXMiOiBudWxsLAogICAgImV4Y2Vzc0Jsb2JHYXMiOiBudWxsLAogICAgImJsb2JHYXNVc2VkIjogbnVsbAp9",
+    "ChainConfig": null,
+    "SubnetConfig": null,
+    "NetworkUpgrades": null,
+    "NodeConfig": null
+}
